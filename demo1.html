@@ -1,0 +1,21 @@
+<html ng-app="myModule">
+	<head>
+		<script src="angular.min.js">
+		</script>
+		<script src="demo1.js"></script>
+	</head>
+	<body>
+	<div ng-controller="myController">
+		{{{name:'Ravita',course:'AngularJS'}.course}}
+		<hr>
+		{{message}}
+		<hr>
+		<b>Student details are:</b>
+		<br>Student Name:{{student.fname}} {{student.lname}}
+		<br>Course: {{student.course}}
+	</div>
+	<div>
+		{{10+20}}
+	</div>
+	</body>
+</html>
