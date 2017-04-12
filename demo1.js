@@ -1,9 +1,9 @@
 var myApp=angular.module("myModule",[]);
 var myFunc=function($scope){
 var student={
-		fname:"Rohit",
-		lname:"sharma",
-		course:"Android"
+		fname:"Amit",
+		lname:"Gupta",
+		course:"Angular"
 	};
 
 	$scope.student=student;
